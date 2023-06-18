@@ -1,0 +1,7 @@
+@import 'nav.css';
+@import 'footer.css';
+
+.search-results{
+    width: 100%;
+    padding: 60px 0;
+}
