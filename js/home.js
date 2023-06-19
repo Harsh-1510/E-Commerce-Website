@@ -14,3 +14,21 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+
+function addToCart(productName, price) {
+    var cartItems = localStorage.getItem('cartItems');
+    var cart = cartItems ? JSON.parse(cartItems) : [];
+  
+    var product = {
+      name: productName,
+      price: price,
+      quantity: 1
+    };
+  
+    cart.push(product);
+    localStorage.setItem('cartItems', JSON.stringify(cart));
+  
+    alert('Product added to cart!');
+}
+  
