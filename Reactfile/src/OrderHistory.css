@@ -1,0 +1,98 @@
+/* Styles for the table */
+
+.history-wrapper{
+    padding:100px;
+    background-color: #fff9f9;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.all-order{
+    font-size:24px;
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.808);
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: seperate;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-spacing: 0 15px;
+  }
+  
+  thead {
+    border-radius: 8px 8px 0 0;
+  }
+  
+  tr:hover{
+    background-color: #ffffff;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #fcfcfe;
+  }
+  
+  /* Alternate row background color
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  /* Hover effect */
+  tbody tr:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  /* Styling for specific columns */
+  th:first-child,
+  td:first-child {
+    width: 5%;
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 25%;
+  }
+  
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 15%;
+  }
+  
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 15%;
+  }
+  
+  th:nth-child(5),
+  td:nth-child(5) {
+    width: 15%;
+  }
+  
+  th:last-child,
+  td:last-child {
+    width: 10%;
+    text-align: right;
+  }
+
+  h4{
+    padding: 20px;
+  }
+  
